@@ -9,6 +9,5 @@ public class RunApi {
                 JOptionPane.PLAIN_MESSAGE , null ,opcoes,"");
         String sApi = ConnectionAPI.informaApi(res.toString());
         ConnectionAPI.runJob(sApi);
-        System.out.println("Testando revert GIT");
     }
 }
