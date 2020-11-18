@@ -10,5 +10,6 @@ public class RunApi {
         String sApi = ConnectionAPI.informaApi(res.toString());
         ConnectionAPI.runJob(sApi);
         System.out.println("Testando stash commit");
+        System.out.println("Salvando na stash");
     }
 }
