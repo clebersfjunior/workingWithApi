@@ -9,10 +9,5 @@ public class RunApi {
                 JOptionPane.PLAIN_MESSAGE , null ,opcoes,"");
         String sApi = ConnectionAPI.informaApi(res.toString());
         ConnectionAPI.runJob(sApi);
-<<<<<<< HEAD
-        System.out.println("Testando stash commit");
-        System.out.println("Salvando na stash");
-=======
->>>>>>> parent of 3d84ed9 (Teste revert GIT)
     }
 }
